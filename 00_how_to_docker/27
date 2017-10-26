@@ -1,0 +1,2 @@
+docker service logs $(docker service ps -q -f name=engineering-bay.1 engineering-bay)
+docker service logs $(docker service ps -q -f name=engineering-bay.2 engineering-bay)
